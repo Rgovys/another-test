@@ -1,13 +1,19 @@
 {
-  "upload_type": "software", 
-  "description": "This is the description.",
-  "title": "Test",
-  "creators": [
-     {
-       "affiliation": "test",
-       "name": "Test Test"
-     }
-  ],
-  "keywords": ["zenodo", "release", "archive"],
-  "license": "Apache-2"
+    "creators": [
+        {
+            "affiliation": "NOAA",
+            "name": "Doe, Jane"
+        },
+        {
+            "affiliation": "NOAA",
+            "name": "Pérez, Juan"
+        }
+    ],
+    "description": "temp",
+    "keywords": [
+        "R"
+    ],
+    "license": {
+        "id": "Apache-2.0"
+    }
 }
