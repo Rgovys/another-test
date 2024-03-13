@@ -15,4 +15,3 @@ jobs:
       with:
         token: ${{ secrets.ZENODO_TOKEN }}
         zenodo_json: .zenodo.json   # optional if adding to an existing record in Zenodo
-        doi: '10.5281/zenodo.10719849'
