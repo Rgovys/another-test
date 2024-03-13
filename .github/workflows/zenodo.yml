@@ -1,0 +1,17 @@
+name: Zenodo Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run Zenodo Deploy
+      uses: nmfs-opensci/zenodo-ga@main
+      with:
+        zenodo_json: .zenodo.json   # optional if adding to an existing record in Zenodo
+#        doi: '10.5281/zenodo.6326822'
