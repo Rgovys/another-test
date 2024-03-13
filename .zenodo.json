@@ -1,19 +1,17 @@
 {
-    "creators": [
-        {
-            "affiliation": "NOAA",
-            "name": "Doe, Jane"
-        },
-        {
-            "affiliation": "NOAA",
-            "name": "Pérez, Juan"
-        }
-    ],
-    "description": "temp",
-    "keywords": [
-        "R"
-    ],
-    "license": {
-        "id": "Apache-2.0"
-    }
+  "upload_type": "software", 
+  "description": "This is a GitHub action for releasing to Zenodo without giving webhook admin access",
+  "title": "Zenodo Release Action",
+  "creators": [
+     {
+       "affiliation": "Lawrence Livermore National Lab",
+       "name": "Vanessa Sochat"
+     },
+     {
+       "affiliation": "Ohio SuperComputer Center",
+       "name": "Jeff Ohrstrom"
+     }
+  ],
+  "keywords": ["zenodo", "release", "archive"],
+  "license": "MIT"
 }
