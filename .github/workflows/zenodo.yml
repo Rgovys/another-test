@@ -14,4 +14,5 @@ jobs:
       uses: nmfs-opensci/zenodo-ga@main
       with:
         token: ${{ secrets.ZENODO_TOKEN }}
-        zenodo_json: .zenodo.json   # optional if adding to an existing record in Zenodo
+        zenodo_json: .zenodo.json   # either a .zenodo.json file or CITATION.cff
+        doi: 10.5281/zenodo.10811321
