@@ -1,0 +1,13 @@
+{
+  "upload_type": "software", 
+  "description": "This is the description.",
+  "title": "Test",
+  "creators": [
+     {
+       "affiliation": "test",
+       "name": "Test Test"
+     }
+  ],
+  "keywords": ["zenodo", "release", "archive"],
+  "license": "Apache-2"
+}
