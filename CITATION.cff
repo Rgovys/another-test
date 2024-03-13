@@ -1,0 +1,18 @@
+authors:
+- affiliation: Lawrence Livermore National Lab
+  family-names: Vanessa Sochat
+- affiliation: Ohio SuperComputer Center
+  family-names: Jeff Ohrstrom
+cff-version: 1.2.0
+date-released: '2024-03-13'
+doi: 10.5281/zenodo.10811322
+keywords:
+- zenodo
+- release
+- archive
+license:
+- mit
+repository-code: https://github.com/Rgovys/another-test/releases/tag/v1.1.3
+title: Zenodo Release Action v1.1.3
+type: software
+version: v1.1.3
